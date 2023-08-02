@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile card</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .card {
+            position: relative;
+            margin: 40px;
+            width: 200px;
+            height: 260px;
+            border: 1px solid gray;
+            border-radius: 8px;
+        }
+        .left span {
+            position: absolute;
+            top: -10px;
+            font-size: 2rem;
+        }
+        .right .num {
+            font-size: 1.3rem;
+            position: absolute;
+            top: -15px;
+            right: -15px;
+            background-color: red;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border: 1px solid red;
+            border-radius: 25px 25px 25px 25px;
+        }
+        img {
+            width: 100%;
+            margin-top: 10px;
+            border-bottom: 1px solid gray;
+        }
+        .container h4 {
+            margin-top: 10px;
+            text-align: center;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="left">
+            <span>&#215;</span>
+        </div>
+        <div class="right">
+            <button class="num">9</button>
+        </div>
+        <img src="./pic/human10.svg" alt="Profile-logo"/>
+        <div class="container">
+            <h4>A.Rudiger</h4>
+        </div>
+    </div>
+</body>
+</html>
